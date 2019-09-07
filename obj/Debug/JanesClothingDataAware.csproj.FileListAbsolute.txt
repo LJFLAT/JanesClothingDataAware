@@ -25,3 +25,17 @@ D:\OneDrive\Cert IV Programming\Module 13\Module 13 - Assessment\JanesClothingDa
 D:\OneDrive\Cert IV Programming\Module 13\Module 13 - Assessment\JanesClothingDataAware\obj\Debug\JanesClothingDataAware.csproj.CoreCompileInputs.cache
 D:\OneDrive\Cert IV Programming\Module 13\Module 13 - Assessment\JanesClothingDataAware\obj\Debug\JanesClothingDataAware.exe
 D:\OneDrive\Cert IV Programming\Module 13\Module 13 - Assessment\JanesClothingDataAware\obj\Debug\JanesClothingDataAware.pdb
+C:\Users\Lance\source\repos\JanesClothingDataAware\bin\Debug\JanesClothingDataAware.exe.config
+C:\Users\Lance\source\repos\JanesClothingDataAware\bin\Debug\JanesClothingDataAware.exe
+C:\Users\Lance\source\repos\JanesClothingDataAware\bin\Debug\JanesClothingDataAware.pdb
+C:\Users\Lance\source\repos\JanesClothingDataAware\obj\Debug\JanesClothingDataAware.csprojAssemblyReference.cache
+C:\Users\Lance\source\repos\JanesClothingDataAware\obj\Debug\JanesClothingDataAware.frmCustomers.resources
+C:\Users\Lance\source\repos\JanesClothingDataAware\obj\Debug\JanesClothingDataAware.frmCustomersAdd.resources
+C:\Users\Lance\source\repos\JanesClothingDataAware\obj\Debug\JanesClothingDataAware.frmMainForm.resources
+C:\Users\Lance\source\repos\JanesClothingDataAware\obj\Debug\JanesClothingDataAware.frmProducts.resources
+C:\Users\Lance\source\repos\JanesClothingDataAware\obj\Debug\JanesClothingDataAware.frmProductsAdd.resources
+C:\Users\Lance\source\repos\JanesClothingDataAware\obj\Debug\JanesClothingDataAware.Properties.Resources.resources
+C:\Users\Lance\source\repos\JanesClothingDataAware\obj\Debug\JanesClothingDataAware.csproj.GenerateResource.cache
+C:\Users\Lance\source\repos\JanesClothingDataAware\obj\Debug\JanesClothingDataAware.csproj.CoreCompileInputs.cache
+C:\Users\Lance\source\repos\JanesClothingDataAware\obj\Debug\JanesClothingDataAware.exe
+C:\Users\Lance\source\repos\JanesClothingDataAware\obj\Debug\JanesClothingDataAware.pdb

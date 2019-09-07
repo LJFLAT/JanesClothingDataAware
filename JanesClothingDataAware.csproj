@@ -46,42 +46,48 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Customers.cs">
+    <Compile Include="UIScreens\Customers.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Customers.Designer.cs">
+    <Compile Include="UIScreens\Customers.Designer.cs">
       <DependentUpon>Customers.cs</DependentUpon>
     </Compile>
-    <Compile Include="CustomersAdd.cs">
+    <Compile Include="UIScreens\CustomersAdd.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CustomersAdd.designer.cs">
+    <Compile Include="UIScreens\CustomersAdd.designer.cs">
       <DependentUpon>CustomersAdd.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainForm.cs">
+    <Compile Include="UIScreens\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainForm.designer.cs">
+    <Compile Include="UIScreens\MainForm.designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Products.cs">
+    <Compile Include="UIScreens\Products.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Products.Designer.cs">
+    <Compile Include="UIScreens\Products.Designer.cs">
       <DependentUpon>Products.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProductsAdd.cs">
+    <Compile Include="UIScreens\ProductsAdd.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProductsAdd.designer.cs">
+    <Compile Include="UIScreens\ProductsAdd.designer.cs">
       <DependentUpon>ProductsAdd.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SalesDataSet.cs">
+      <DependentUpon>SalesDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="SalesDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SalesDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SalesDataSet1.cs">
+      <DependentUpon>SalesDataSet1.xsd</DependentUpon>
     </Compile>
     <Compile Include="SalesDataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -103,19 +109,19 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>SalesDataSet4.xsd</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Customers.resx">
+    <EmbeddedResource Include="UIScreens\Customers.resx">
       <DependentUpon>Customers.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CustomersAdd.resx">
+    <EmbeddedResource Include="UIScreens\CustomersAdd.resx">
       <DependentUpon>CustomersAdd.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainForm.resx">
+    <EmbeddedResource Include="UIScreens\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Products.resx">
+    <EmbeddedResource Include="UIScreens\Products.resx">
       <DependentUpon>Products.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProductsAdd.resx">
+    <EmbeddedResource Include="UIScreens\ProductsAdd.resx">
       <DependentUpon>ProductsAdd.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -194,6 +200,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BusinessLogic\" />
+    <Folder Include="DataAccessLayer\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
